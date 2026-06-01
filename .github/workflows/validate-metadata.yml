@@ -1,0 +1,36 @@
+name: Validate Metadata
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'games/**/*.json'
+      - 'scripts/validate-metadata.ts'
+      - '.github/workflows/validate-metadata.yml'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+  pull_request:
+    paths:
+      - 'games/**/*.json'
+      - 'scripts/validate-metadata.ts'
+      - '.github/workflows/validate-metadata.yml'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run validate

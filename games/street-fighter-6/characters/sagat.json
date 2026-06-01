@@ -3,7 +3,7 @@
   "variants": [
     {
       "images": {
-        "icon": "https://parrygg.b-cdn.net/019ae79b-fcbd-7ab8-8ee8-c49267896ad1.png"
+        "stock_icon": "https://parrygg.b-cdn.net/019ae79b-fcbd-7ab8-8ee8-c49267896ad1.png"
       }
     },
     {
@@ -11,7 +11,7 @@
         "variant": 1
       },
       "images": {
-        "icon": "https://parrygg.b-cdn.net/019ae79b-ffb7-7bdc-92a3-e02a1f17aeb9.png"
+        "stock_icon": "https://parrygg.b-cdn.net/019ae79b-ffb7-7bdc-92a3-e02a1f17aeb9.png"
       }
     }
   ]
