@@ -1,0 +1,10 @@
+{
+  "name": "Snake",
+  "variants": [
+    {
+      "images": {
+        "icon": "https://parrygg.b-cdn.net/019e843e-06c1-77b8-a5b7-340751f6ab37.png"
+      }
+    }
+  ]
+}
