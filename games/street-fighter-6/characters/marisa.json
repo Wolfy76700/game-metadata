@@ -3,7 +3,7 @@
   "variants": [
     {
       "images": {
-        "icon": "https://parrygg.b-cdn.net/019ae79b-e408-766d-88a2-4c205ccbc87a.png"
+        "stock_icon": "https://parrygg.b-cdn.net/019ae79b-e408-766d-88a2-4c205ccbc87a.png"
       }
     },
     {
@@ -11,7 +11,7 @@
         "variant": 1
       },
       "images": {
-        "icon": "https://parrygg.b-cdn.net/019ae79b-e70b-78ae-a537-1ffc534dfc4a.png"
+        "stock_icon": "https://parrygg.b-cdn.net/019ae79b-e70b-78ae-a537-1ffc534dfc4a.png"
       }
     },
     {
@@ -19,7 +19,7 @@
         "variant": 2
       },
       "images": {
-        "icon": "https://parrygg.b-cdn.net/019ae79b-e9be-763d-828a-6395ec0c37ba.png"
+        "stock_icon": "https://parrygg.b-cdn.net/019ae79b-e9be-763d-828a-6395ec0c37ba.png"
       }
     }
   ]
