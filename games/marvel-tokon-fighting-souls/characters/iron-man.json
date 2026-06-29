@@ -1,0 +1,10 @@
+{
+  "name": "Iron Man",
+  "variants": [
+    {
+      "images": {
+        "stock_icon": "https://parrygg.b-cdn.net/019f149d-a021-7cc9-a3fb-5d233883021e.png"
+      }
+    }
+  ]
+}
